@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+	<!-- WEB CONSOLE HTML :: INFORMATIONAL PAGE -->
+	<!-- (C) 2008 Nickolay Kovalev, http://resume.nickola.ru -->
+	<!-- Web Console URL: http://www.web-console.org -->
+	<!-- Last version of Web Console can be downloaded from: http://www.web-console.org/download/ -->
+	<!-- Web Console Group services: http://services.web-console.org -->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="author" content="Nickolay Kovalev | http://resume.nickola.ru" />
+	<meta name="robots" content="NONE" />
+	<title>$WC_HTML{'page_title'}</title>
+	<!-- #NL_CODE: INCLUDE_CSS '_make/cmp_page_all_others.css' -->
+	<link rel="stylesheet" type="text/css" href="css/page_all_others.css" />
+	<link rel="stylesheet" type="text/css" href="css/part_report.css" />
+	<link rel="stylesheet" type="text/css" href="css/part_logon.css" />
+	<link rel="stylesheet" type="text/css" href="css/part_install.css" />
+	<!-- #NL_CODE: / INCLUDE_CSS -->
+<!--[if IE]><style type="text/css">#block-FORM .form-input { padding: 1px 3px; }</style><![endif]-->
+	<!-- #NL_CODE: INCLUDE_JS '_make/cmp_page_all_others.js' -->
+	<script type="text/javascript" language="JavaScript" src="libs/JS/X/x.js"></script>
+	<script type="text/javascript" language="JavaScript" src="libs/JS/NL/NL_Core.js"></script>
+	<script type="text/javascript" language="JavaScript" src="libs/JS/NL/NL_Browser.js"></script>
+	<script type="text/javascript" language="JavaScript" src="libs/JS/NL/NL_Crypt.js"></script>
+	<script type="text/javascript" language="JavaScript" src="libs/JS/NL/NL_UI.js"></script>
+	<script type="text/javascript" language="JavaScript" src="libs/JS/WC/WC_Other.js"></script>
+	<!-- #NL_CODE: / INCLUDE_JS -->
+</head>
+<!-- 'onload' will show MAIN block for JS-enabled browsers, get login from cookies and set focus to the needed element -->
+<body onload="WC.Other.init('$WC_HTML{'PAGE_TYPE'}')">
+<table id="layout"><tr><td id="layout-td">
+		<!-- JS IS NOT SUPPORTED -->
+		<noscript>
+			<div id="block-no-JS">
+				Your browser does not support JavaScript.<br />
+				To use Web Console, your browser must support JavaScript.<br />
+				<div id="block-no-JS-FAQ">
+					&#187; read solution for that problem at
+					<a href="http://www.web-console.org/faq/#INSTALL_JS_NOT_FOUND" target="_blank" title="Read solution for that problem">Web Console FAQ</a>
+				</div>
+			</div>
+		</noscript>
+		<!-- THAT BLOCK WILL BE VISIBLE ONLY AT JS-ENABLED BROWSERS -->
+		<div id="block-CONTENT">
+
+			<!-- main 'title' and 'info' -->
+			<table id="block-main">
+				<tr><td id="block-main-title">$WC_HTML{'main_title'}</td></tr>
+				<tr><td id="block-main-info">$WC_HTML{'main_info'}</td></tr>
+			</table>
+
+			<!-- PARTS OF DIFFERENT PAGES -->
+
+			<!-- #WC_CODE: IF ('PAGE_TYPE' eq 'logon') -->
+
+			<form id="form-HIDDEN" action="$WC_HTML{'APP_file'}" method="post">
+				<input type="hidden" id="_q_action" name="q_action" value="logon" />
+				<input type="hidden" id="_user_login" name="user_login" value="" />
+				<input type="hidden" id="_user_password" name="user_password" value="" />
+			</form>
+			<form id="form-MAIN" action="" method="post" onsubmit="WC.Other.submit('logon'); return false">
+			<table id="block-FORM">
+				<tr><td class="form-label">login:</td><td class="form-input"><input id="_user_login_MAIN" name="user_login_MAIN" type="text" value="$WC_HTML{'user_login'}" /></td></tr>
+				<tr><td class="form-label">password:</td><td class="form-input"><input id="_user_password_MAIN" name="user_password_MAIN" type="password" value="$WC_HTML{'user_password'}" /></td></tr>
+				<tr><td class="form-submit-fake"><input type="submit" value="&nbsp;" /></td><td class="form-submit"><div id="div-button-submit" class="div-button-unpressed">enter</div></td></tr>
+			</table>
+			</form>
+			<div id="block-footer"><a href="http://www.web-console.org/donate/" title="Support Web Console project" target="_blank">&gt; Support us &lt;</a></div>
+			<script type="text/JavaScript"><!--
+				NL.UI.div_button_register('div-button', 'div-button-submit', function() { WC.Other.submit('logon'); }, {});
+			//--></script>
+
+			<!-- #WC_CODE: ELSE IF ('PAGE_TYPE' eq 'error') -->
+				<!-- ERROR MESSAGE -->
+			<!-- #WC_CODE: ELSE IF ('PAGE_TYPE' eq 'info') -->
+				<!-- INFORMATIONAL MESSAGE -->
+			<!-- #WC_CODE: ELSE IF ('PAGE_TYPE' eq 'install') -->
+				<!-- INFORMATIONAL MESSAGE -->
+				<!-- #WC_CODE: IF ('PAGE_ACTION' eq 'ERROR') -->
+					<!-- INFORMATIONAL MESSAGE -->
+				<!-- #WC_CODE: ELSE -->
+				<form id="form-HIDDEN" action="$WC_HTML{'APP_file'}" method="post">
+					<input type="hidden" id="_q_action" name="q_action" value="install" />
+					<input type="hidden" id="_user_login" name="user_login" value="" />
+					<input type="hidden" id="_user_password" name="user_password" value="" />
+					<input type="hidden" id="_user_email" name="user_email" value="" />
+					<input type="hidden" id="_encoding_SERVER_CONSOLE" name="encoding_SERVER_CONSOLE" value="" />
+					<input type="hidden" id="_encoding_SERVER_SYSTEM" name="encoding_SERVER_SYSTEM" value="" />
+					<input type="hidden" id="_encoding_EDITOR_TEXT" name="encoding_EDITOR_TEXT" value="" />
+				</form>
+				<form id="form-MAIN" action="" method="post" onsubmit="WC.Other.submit('install', $WC_HTML{'ENCODE_ON'}); return false">
+				<table id="block-FORM">
+					<tr><td class="form-label">administrator login:</td><td class="form-input"><input id="_user_login_MAIN" name="user_login_MAIN" type="text" value="$WC_HTML{'user_login'}" onclick="WC.Other.paste_at_active_INPUT_deactivate()" /></td></tr>
+					<tr><td class="form-label">password:</td><td class="form-input"><input id="_user_password_MAIN" name="user_password_MAIN" type="password" value="" onclick="WC.Other.paste_at_active_INPUT_deactivate()" /></td></tr>
+					<tr><td class="form-label">confirm password:</td><td class="form-input"><input id="_user_password_MAIN_confirm" name="user_password_MAIN_confirm" type="password" value="$WC_HTML{'user_password'}" onclick="WC.Other.paste_at_active_INPUT_deactivate()" /></td></tr>
+					<tr><td class="form-label">e-mail:</td><td class="form-input"><input id="_user_email_MAIN" name="user_email_MAIN" type="text" value="$WC_HTML{'user_email'}" onclick="WC.Other.paste_at_active_INPUT_deactivate()" /></td></tr>
+					<tr><td class="form-label">confirm e-mail:</td><td class="form-input"><input id="_user_email_MAIN_confirm" name="user_email_MAIN_confirm" type="text" value="$WC_HTML{'user_email'}" onclick="WC.Other.paste_at_active_INPUT_deactivate()" /></td></tr>
+
+					<!-- #WC_CODE: IF ('ENCODE_ON' == 1) -->
+					<tr><td class="form-encoding" colspan="2">
+						<table id="block-switcher">
+							<tr>
+								<td class="left"><input id="_use_ENCODINGS_switcher" name="use_ENCODINGS_switcher" type="checkbox" value="" /></td>
+								<td class="right"><label id="_use_ENCODINGS_switcher-LABEL" for="_use_ENCODINGS_switcher">specify encodings</label></td>
+							</tr>
+						</table>
+						<div id="_use_ENCODINGS_switcher-AREA" class="div-switcher-unpressed">
+							<div class="t-encoding">Please specify encodings at POSIX format</div>
+							<div class="t-encoding-example">
+								Examples: &quot;<span class="t-encoding-marked"><a href="#" onclick="WC.Other.paste_at_active_INPUT(this, 'UTF-8'); return false" title="Click to paste at active (or last active) encodings input">UTF-8</a></span>&quot;, &quot;<span class="t-encoding-marked"><a href="#" onclick="WC.Other.paste_at_active_INPUT(this, 'ru_RU.KOI8-R'); return false" title="Click to paste at active (or last active) encodings input">ru_RU.KOI8-R</a></span>&quot;,<br />
+								&quot;<span class="t-encoding-marked"><a href="#" onclick="WC.Other.paste_at_active_INPUT(this, 'ru_RU.CP1251'); return false" title="Click to paste at active (or last active) encodings input">ru_RU.CP1251</a></span>&quot;, &quot;<span class="t-encoding-marked"><a href="#" onclick="WC.Other.paste_at_active_INPUT(this, 'ru_RU.CP866'); return false" title="Click to paste at active (or last active) encodings input">ru_RU.CP866</a></span>&quot;...
+							</div>
+							<div class="t-encoding-read-link">About Web Console encodings please read <a class="underline" href="http://www.web-console.org/faq/#ENCODINGS_HOWTO" title="Read detailed information about setting Web Console encodings" target="_blank">here</a></div>
+							<table id="block-switcher-ENCODING">
+								<tr><td class="form-encoding-label" title="Encoding of server shell commands execution output (like 'ls', 'dir'...)">server console encoding:</td></tr>
+								<tr><td class="form-encoding-input"><input id="_encoding_SERVER_CONSOLE_MAIN" name="encoding_SERVER_CONSOLE_MAIN" type="text" value="$WC_HTML{'encoding_SERVER_CONSOLE'}" onfocus="WC.Other.paste_at_active_INPUT_activate(this)" /></td></tr>
+								<tr><td class="form-encoding-label" title="Encoding of server internal commands (programming commands) output">server system encoding:</td></tr>
+								<tr><td class="form-encoding-input"><input id="_encoding_SERVER_SYSTEM_MAIN" name="encoding_SERVER_SYSTEM_MAIN" type="text" value="$WC_HTML{'encoding_SERVER_SYSTEM'}" onfocus="WC.Other.paste_at_active_INPUT_activate(this)" /></td></tr>
+								<tr><td class="form-encoding-label" title="Encoding for Web Console text files editor (if empty then will be used &quot;server system&quot;)">Web Console text editor encoding:</td></tr>
+								<tr><td class="form-encoding-input"><input id="_encoding_EDITOR_TEXT_MAIN" name="encoding_EDITOR_TEXT_MAIN" type="text" value="$WC_HTML{'encoding_EDITOR_TEXT'}" onfocus="WC.Other.paste_at_active_INPUT_activate(this)" /></td></tr>
+							</table>
+							<div id="block-ENCODINGS_TITLE">Common encodings list (click to paste):</div>
+							<div id="block-ENCODINGS_LIST">$WC_HTML{'ENCODE_ENCODING'}</div>
+						</div>
+					</td></tr>
+					<script type="text/JavaScript"><!--
+						NL.UI.switcher_register('div-switcher', '_use_ENCODINGS_switcher', $WC_HTML{'ENCODE_AREA_SHOW'});
+						// Feature for setting encrypted password (not used now):
+						// Add to password input: 'onchange="WC.Other.password_CHANGED(); return true"'
+						// Call when form is shown: WC.Other.set_encoded_password('$WC_HTML{'user_password'}')
+					//--></script>
+					<!-- #WC_CODE: /IF -->
+					<tr><td class="form-submit-fake"><input type="submit" value="&nbsp;" /></td><td class="form-submit"><div id="div-button-submit" class="div-button-unpressed">install</div></td></tr>
+				</table>
+				</form>
+				<!-- #WC_CODE: IF ('ENCODE_ON' == 0) -->
+					$WC_HTML{'ENCODE_ERROR'}
+				<!-- #WC_CODE: /IF -->
+				<script type="text/JavaScript"><!--
+					NL.UI.div_button_register('div-button', 'div-button-submit', function() { WC.Other.submit('install', $WC_HTML{'ENCODE_ON'}); }, {});
+				//--></script>
+				<!-- #WC_CODE: /IF -->
+			<!-- #WC_CODE: /IF -->
+		</div>
+		<!-- END OF THE BLOCK THAT IS VISIBLE ONLY AT JS-ENABLED BROWSERS -->
+	</td>
+</tr>
+</table>
+</body>
+</html>

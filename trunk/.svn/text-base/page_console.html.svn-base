@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+	<!-- WEB CONSOLE HTML :: MAIN PAGE (CONSOLE) -->
+	<!-- (C) 2008 Nickolay Kovalev, http://resume.nickola.ru -->
+	<!-- Web Console URL: http://www.web-console.org -->
+	<!-- Last version of Web Console can be downloaded from: http://www.web-console.org/download/ -->
+	<!-- Web Console Group services: http://services.web-console.org -->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="author" content="Nickolay Kovalev | http://resume.nickola.ru" />
+	<meta name="robots" content="NONE" />
+	<title>$WC_HTML{'page_title'}</title>
+	<!-- #NL_CODE: INCLUDE_CSS '_make/cmp_page_console.css' -->
+	<link rel="stylesheet" type="text/css" href="css/page_console.css" />
+	<link rel="stylesheet" type="text/css" href="css/page_console_elements.css" />
+	<link rel="stylesheet" type="text/css" href="css/part_report.css" />
+	<link rel="stylesheet" type="text/css" href="css/page_console_report.css" />
+	<link rel="stylesheet" type="text/css" href="css/page_console_UI.css" />
+	<link rel="stylesheet" type="text/css" href="css/page_console_UI_filemanager.css" />
+	<link rel="stylesheet" type="text/css" href="css/page_console_UI_upload.css" />
+	<!-- #NL_CODE: / INCLUDE_CSS -->
+	<!-- #NL_CODE: INCLUDE_JS '_make/cmp_page_console.js' -->
+	<script type="text/javascript" language="JavaScript" src="libs/JS/X/x.js"></script>
+	<script type="text/javascript" language="JavaScript" src="libs/JS/JsHttpRequest/JsHttpRequest_FIXED.js"></script>
+	<!-- NL -->
+	<script type="text/javascript" language="JavaScript" src="libs/JS/NL/NL_Core.js"></script>
+	<script type="text/javascript" language="JavaScript" src="libs/JS/NL/NL_Cache.js"></script>
+	<script type="text/javascript" language="JavaScript" src="libs/JS/NL/NL_Debug.js"></script>
+	<script type="text/javascript" language="JavaScript" src="libs/JS/NL/NL_String.js"></script>
+	<script type="text/javascript" language="JavaScript" src="libs/JS/NL/NL_Browser.js"></script>
+	<script type="text/javascript" language="JavaScript" src="libs/JS/NL/NL_AJAX.js"></script>
+	<script type="text/javascript" language="JavaScript" src="libs/JS/NL/NL_UI.js"></script>
+	<script type="text/javascript" language="JavaScript" src="libs/JS/NL/NL_Form.js"></script>
+	<script type="text/javascript" language="JavaScript" src="libs/JS/NL/NL_Crypt.js"></script>
+	<script type="text/javascript" language="JavaScript" src="libs/JS/NL/NL_Timer.js"></script>
+	<script type="text/javascript" language="JavaScript" src="libs/JS/NL/NL_Upload.js"></script>
+	<!-- Web Console -->
+	<script type="text/javascript" language="JavaScript" src="libs/JS/WC/WC_Core.js"></script>
+	<script type="text/javascript" language="JavaScript" src="libs/JS/WC/WC_Console.js"></script>
+	<script type="text/javascript" language="JavaScript" src="libs/JS/WC/WC_Console_State.js"></script>
+	<script type="text/javascript" language="JavaScript" src="libs/JS/WC/WC_Console_DOM.js"></script>
+	<script type="text/javascript" language="JavaScript" src="libs/JS/WC/WC_Console_Timer.js"></script>
+	<script type="text/javascript" language="JavaScript" src="libs/JS/WC/WC_Console_HTML.js"></script>
+	<script type="text/javascript" language="JavaScript" src="libs/JS/WC/WC_UI.js"></script>
+	<script type="text/javascript" language="JavaScript" src="libs/JS/WC/WC_UI_Filemanager.js"></script>
+	<script type="text/javascript" language="JavaScript" src="libs/JS/WC/WC_UI_Upload.js"></script>
+	<script type="text/javascript" language="JavaScript" src="libs/JS/WC/WC_Console_Autocomplete.js"></script>
+	<script type="text/javascript" language="JavaScript" src="libs/JS/WC/WC_Console_Clipboard.js"></script>
+	<script type="text/javascript" language="JavaScript" src="libs/JS/WC/WC_Console_Prompt.js"></script>
+	<script type="text/javascript" language="JavaScript" src="libs/JS/WC/WC_Console_Hooks.js"></script>
+	<script type="text/javascript" language="JavaScript" src="libs/JS/WC/WC_Console_History.js"></script>
+	<script type="text/javascript" language="JavaScript" src="libs/JS/WC/WC_Console_AJAX.js"></script>
+	<script type="text/javascript" language="JavaScript" src="libs/JS/WC/WC_Console_Response.js"></script>
+	<script type="text/javascript" language="JavaScript" src="libs/JS/WC/WC_Console_Exec.js"></script>
+	<script type="text/javascript" language="JavaScript" src="libs/JS/WC/WC_Init.js"></script>
+	<!-- #NL_CODE: / INCLUDE_JS -->
+</head>
+<body>
+<table id="layout"><tr><td id="layout-td">
+	<table id="layout-internal">
+	<tr><td id="area-output" colspan="2">&nbsp;</td></tr>
+	<tr>
+		<td id="area-bottom">
+			<table class="grid"><tr id="area-bottom-tr">
+				<td id="area-command-prefix-td"><span id="area-command-prefix">&gt;&nbsp;</span></td>
+				<td id="area-command">
+					<form id="form-MAIN" action="" method="post" autocomplete="off" onsubmit="return false">
+						<input id="input-query" type="text" name="_input-query" autocomplete="off" />
+					</form>
+					<script type="text/JavaScript"><!--
+						// Setting INFO
+						WC.Console.SET_USER("$WC_HTML{'user_login'}", "$WC_HTML{'user_password_encrypted'}");
+						WC.Console.State.set('DIR_CURRENT', "$WC_HTML{'dir_current'}");
+						WC.Console.State.set('FLAG_SHOW_WELCOME', $WC_HTML{'flag_show_welcome'});
+						WC.Console.State.set('FLAG_SHOW_WARNINGS', $WC_HTML{'flag_show_warnings'});
+						WC.Console.State.set('IS_DEMO', $WC_HTML{'IS_DEMO'});
+						// Additional JavaScript
+						WC.Console.additional_JAVASCRIPT = function() {
+							$WC_HTML{'ADDITIONAL_JAVASCRIPT'}
+						};
+					//--></script>
+				</td>
+			</tr></table>
+		</td>
+	</tr>
+	</table>
+</td></tr></table>
+</body>
+</html>

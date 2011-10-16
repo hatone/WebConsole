@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svnroot/web-console/!svn/ver/10/trunk
+END
+page_console.html
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/web-console/!svn/ver/4/trunk/page_console.html
+END
+wc.pl
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svnroot/web-console/!svn/ver/10/trunk/wc.pl
+END
+changelog.txt
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnroot/web-console/!svn/ver/10/trunk/changelog.txt
+END
+page_all_others.html
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/web-console/!svn/ver/4/trunk/page_all_others.html
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svnroot/web-console/!svn/ver/4/trunk/readme.txt
+END

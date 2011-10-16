@@ -1,0 +1,13 @@
+K 10
+svn:ignore
+V 84
+wc_data
+wc_work
+.htaccess_
+.htaccess
+index.html
+_make
+_tests
+_changelog_example.txt
+
+END
