@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/web-console/!svn/ver/4/trunk/libs/Perl/WC/Internal/Data
+END
+Upload.pm
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/web-console/!svn/ver/2/trunk/libs/Perl/WC/Internal/Data/Upload.pm
+END
+File.pm
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/web-console/!svn/ver/4/trunk/libs/Perl/WC/Internal/Data/File.pm
+END
+Settings.pm
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/web-console/!svn/ver/2/trunk/libs/Perl/WC/Internal/Data/Settings.pm
+END

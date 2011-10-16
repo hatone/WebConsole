@@ -1,0 +1,90 @@
+/*
+* Web Console CSS :: CONSOLE USER INTERFACE :: FILE MANAGER
+* (C) 2008 Nickolay Kovalev, http://resume.nickola.ru
+* E-mail: nickola_code@nickola.ru
+* @FILE_STATUS: READY_DEV
+*/
+
+/* FILE UPLOAD :: ELEMENTS */
+.grid .wc-upload-files { padding: 6px 0 4px 0; vertical-align: middle; }
+.grid .wc-upload-name { color: #528c6a; }
+.grid .wc-upload-area-select-left { padding: 0 6px 0 0; vertical-align: middle; white-space: nowrap; }
+.grid .wc-upload-area-select-right { padding: 0 0 0 0; vertical-align: middle; white-space: nowrap; }
+.grid .wc-upload-info-left { padding: 2px 0 2px 0; color: #528c6a; width: 50%; text-align: left; }
+.grid .wc-upload-info-right { padding: 2px 0 2px 0; color: #528c6a; width: 50%; text-align: right; }
+.grid .wc-upload-info-left span, .grid .wc-upload-info-right span { color: #b66640; }
+.grid .wc-upload-info-right span.span-message { color: #00cd00; white-space: nowrap; }
+
+/* WC AJAX UPLOAD STYLE :: BUTTONS (DIV-BASED) STYLE */
+.wc-upload-div-button-pressed, .wc-upload-div-button-unpressed,
+.wc-upload-div-button-dir-reload-pressed, .wc-upload-div-button-dir-reload-unpressed,
+.wc-upload-div-button-unpressed-hidden {
+	margin: 0; padding : 2px 6px;  width: 120px;
+	background-color: #333333; text-align: center; vertical-align : middle; /* float: left; */
+	border: 1px solid #bbbbbb; cursor: default;
+}
+/* BUTTONS */
+.wc-upload-div-button-pressed { padding : 3px 5px 1px 7px; }
+.wc-upload-div-button-unpressed-hidden { display: none; }
+.wc-upload-div-button-unactive { color: #666666; }
+
+.wc-upload-div-button-dir-reload {
+	width: 178px; font-size: 9pt; height: 14px; vertical-align: middle;
+	cursor: default; margin: 0; padding: 2px 8px 2px 8px; text-align: center;
+	background-color: #333333; border: 1px solid #bbbbbb;
+}
+.wc-upload-div-button-dir-reload-pressed { padding: 3px 7px 1px 9px; }
+
+/* TEXT */
+.grid .wc-upload-small-info { font-size: 11px; color: #6a7070; }
+.grid .wc-upload-dir-reload-status { font-weight: bold; padding: 0; text-align: left; vertical-align: middle; }
+
+/* INPUTS */
+.grid .wc-upload-input-select { padding: 0; margin: auto; border: 1px solid #b3b3b3; width: auto; }
+.wc-upload-input, .wc-upload-input-permissions, .wc-upload-input-dir {
+	padding: 1px 3px 1px 3px; margin: auto; border: 1px solid #b3b3b3; width: 220px;
+}
+.wc-upload-input-file, .wc-upload-input-file-opera,
+.wc-upload-input-file-ff3 { padding: 1px 2px; margin: 0; margin-bottom: 5px; border: 1px solid #b3b3b3; width: 100%; }
+.grid .wc-upload-input-file-opera { background-color: #fff; color: #000; font-size: 9pt; }
+.grid .wc-upload-input-file-ff3 { background-color: #fff; color: #000; }
+
+.wc-upload-input-permissions { width: 60px; }
+.wc-upload-input-dir { width: 580px; }
+.wc-upload-checkbox-ASCII { padding: 0; margin: 0; }
+
+/* COLORS */
+.grid .wc-upload-NO-RESULT { color: #00cd00; }
+.grid .wc-upload-total-files { color: #00cd00; }
+.grid .wc-upload-files-size { color: #00cd00; }
+.grid .wc-upload-time { color: #00cd00; }
+.grid .wc-upload-chmod { color: #00cd00; }
+.grid .wc-upload-file-good { color: #1196cb; }
+.grid .wc-upload-file-good-main { color: #006699; }
+.grid .wc-upload-file-good-size { color: #006699; }
+.grid .wc-upload-file-good-info { color: #666666; font-style: italic; }
+.grid .wc-upload-file-bad { color: #ca412d; }
+.grid .wc-upload-file-bad-main { color: #993300; }
+.grid .wc-upload-file-bad-size { color: #993300; }
+.grid .wc-upload-file-bad-info { color: #666666; font-style: italic; }
+.grid .wc-upload-STOPED { color: #ca412d; }
+
+/* PROGRESS */
+.grid .wc-upload-progress { border-collapse: collapse; margin: 0; border: 0; width: 100%; }
+.grid .wc-upload-progress-td-percents { font-weight: bold; font-size: 13px; padding: 3px 6px; text-align: center; color: #b69605; }
+.grid .wc-upload-progress-td-percents span { font-weight: bold; font-size: 13px; color: #b69605; }
+.grid .wc-upload-progress-td-bar { font-weight: bold; font-size: 13px; padding: 3px 6px 9px 6px; text-align: center; }
+.grid .wc-upload-progress-td-approx { white-space: nowrap; font-size: 13px; padding: 3px 6px 5px 6px; text-align: center; color: #1196cb; }
+.grid .wc-upload-progress-td-approx span { font-size: 13px; color: #1196cb; }
+.grid .wc-upload-progress-td-approx span.wc-upload-loading { color: #7d7d7d; }
+/* div bar */
+.grid .wc-upload-progress-div-bar { border: 1px solid #a3a3a3; margin: auto; text-align: left; vertical-align: middle;
+			      width: 90%; height: 12px; background-color: #231f20; font-size: 1px; }
+.grid .wc-upload-progress-div-subbar { text-align: left; font-size: 1px; background-color: #c9c9c9;
+				 width: 0%; height: 12px;  }
+/* progress info */
+.grid .wc-upload-loading { color: #7d7d7d; }
+.grid .wc-upload-finish-info, .wc-upload-progress-info { border-collapse: collapse; padding: 3px 0; margin: 0; border: 0; vertical-align: middle; width: 100%; }
+.grid .wc-upload-finish-info td, .wc-upload-progress-info td { border: 1px solid #b3b3b3; }
+.grid .wc-upload-finish-info td.finish-left, .wc-upload-progress-info td.progress-left { padding: 3px 6px; width: 1%; white-space: nowrap; vertical-align: middle; color: #528c6a; }
+.grid .wc-upload-finish-info td.finish-main, .wc-upload-progress-info td.progress-main { padding: 3px 6px; width: 100%; vertical-align: middle; color: #4fa600; }

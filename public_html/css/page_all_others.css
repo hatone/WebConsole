@@ -1,0 +1,226 @@
+/*
+* Web Console CSS :: For all pages, except 'MAIN PAGE'
+* (C) 2008 Nickolay Kovalev, http://resume.nickola.ru
+* E-mail: nickola_code@nickola.ru
+* @FILE_STATUS: READY
+*/
+
+/* GLOBAL */
+* {
+	margin: 0; padding: 0;
+	background-color: #000;	color: #bbb;
+	font-weight: normal; font-size: 12px; font-family: verdana, helvetica, arial, sans-serif;
+}
+a, a:visited, a:active, a:hover { background-color: #000; color: #bbb; text-decoration: underline; }
+
+/* MAIN */
+html, body { margin: 0; padding: 0; height: 100%; }
+div { margin: 0; padding: 0; }
+form { margin: 0; padding: 0; }
+input {
+	font-family: verdana, helvetica, arial, sans-serif; color: #bbb; font-size: 12px;
+	border: 1px solid #bbb;
+}
+
+/* LAYOUT */
+#layout {
+	width: 100%;
+	height: 100%;
+	border: 0;
+  	border-collapse: collapse;
+}
+#layout-td {
+	padding: 6px; /* main padding */
+	margin: 0;
+	vertical-align: middle;
+	text-align: center;
+	font-weight: bold;
+}
+
+/* BLOCKS */
+#block-no-JS {
+	border: 1px solid #e51b16;
+	line-height: 150%;
+	color : #1196cb;
+	text-align: center;
+	margin: 16px auto;
+	padding: 10px;
+	width: 430px;
+}
+#block-no-JS-FAQ {
+	color: #a995cd;
+	padding: 0;
+	margin: 0;
+	text-align: right;
+	font-weight: bold;
+}
+#block-no-JS-FAQ a, #block-no-JS-FAQ a:visited, #block-no-JS-FAQ a:active, #block-no-JS-FAQ a:hover {
+	color: #a995cd;
+	font-weight: bold;
+}
+#block-CONTENT { display: none; /* FOR BROWSERS THAT DOEST NO SUPPORT JS, IT WILL BE SET TO 'display: block' AT JS */ }
+/* block-main */
+#block-main {
+	padding: 0; margin: auto; width: auto;
+	border: 0;
+  	border-collapse: collapse;
+	text-align: center;
+}
+#block-main-title, #block-main-title .t-MARK-ERROR, #block-main-title .t-MARK-WARNING, #block-main-title .t-MARK-INFO,
+#block-main-title a, #block-main-title a:visited, #block-main-title a:active, #block-main-title a:hover {
+	text-align: center; padding: 0 0 3px 0; font-weight: bold; font-size: 28px; color: #009964;
+}
+#block-main-title .t-MARK-ERROR { color: #e51b16; }
+#block-main-title .t-MARK-WARNING { color: #1196cb; }
+#block-main-title .t-MARK-INFO { color: #1196cb; }
+#block-main-title a, #block-main-title a:visited, #block-main-title a:active, #block-main-title a:hover { text-decoration: none; }
+#block-main-info { padding: 0 0 6px 0; text-align: center; font-weight: bold; color: #219860; }
+/* block-form */
+#block-FORM {
+	text-align: center;
+	width: auto;
+	margin: auto;
+	border: 0;
+	border-collapse: collapse;
+}
+#block-FORM .form-label {
+	white-space: nowrap;
+	padding: 1px 3px;
+	text-align: left;
+	font-weight : bold;
+	vertical-align: middle;
+	color: #528c6a;
+}
+#block-FORM .form-input {
+	padding: 2px 3px;
+	text-align: left;
+	vertical-align: middle;
+}
+#block-FORM .form-input input {
+	padding: 1px 3px;
+	font-weight: normal;
+	vertical-align: middle;
+	width: 140px;
+}
+#block-FORM .form-submit-fake {
+	padding: 0;
+	text-align: right;
+	vertical-align: bottom;
+}
+#block-FORM .form-submit-fake input {
+	width: 1px; height: 1px; font-size: 1px;
+	padding: 0; margin: 0;
+	border: 0 solid #000000;
+	/* "outline: none;" - removing the blue glow in Safari */
+	outline: none;
+}
+#block-FORM .form-submit {
+	padding: 6px 3px;
+	text-align: right;
+	vertical-align: middle;
+}
+#block-FORM .form-encoding {
+	padding: 0 3px;
+	text-align: right;
+	vertical-align: middle;
+}
+/* block-swither */
+#block-switcher {
+	text-align: right;
+	border-collapse: collapse;
+	margin: 3px 0 3px auto;
+}
+#block-switcher td.left { text-align: right; padding: 0; width: auto; vertical-align: middle; }
+#block-switcher td.left input { margin: 0; padding: 0; border: 0; }
+#block-switcher td.right { text-align: left; padding: 0 0 0 6px; width: auto; white-space: nowrap; vertical-align: middle; }
+#block-switcher td.right label { color: #23d500; font-weight: bold; vertical-align: middle; }
+
+#block-switcher-ENCODING {
+	text-align: right;
+	border-collapse: collapse;
+	margin: 3px 0 0 auto;
+}
+#block-switcher-ENCODING .form-encoding-label {
+	cursor: help; white-space: nowrap;
+	padding: 2px 0;
+	text-align: right;
+	font-weight : bold;
+	vertical-align: middle;
+	color: #528c6a;
+}
+#block-switcher-ENCODING .form-encoding-input {
+	padding: 1px 0;
+	text-align: right;
+	vertical-align: middle;
+}
+#block-switcher-ENCODING .form-encoding-input input {
+	padding: 1px 3px;
+	font-weight: normal;
+	vertical-align: middle;
+	width: 140px;
+}
+#_use_ENCODINGS_switcher { background-color: #000000; width: auto; height: auto; padding: 0; margin: 0 4px 0 0; }
+
+/* block-footer */
+#block-footer { margin: 16px auto auto auto; text-align : center; }
+#block-footer a, #block-footer a:visited, #block-footer a:active, #block-footer a:hover {
+	text-decoration: none;
+	font-weight : bold;
+	font-size : 17px;
+	color: #b48c00;
+}
+
+/* DIV SWITCHERS */
+.div-switcher-pressed { display: block; }
+.div-switcher-unpressed { display: none; }
+
+/* DIV BUTTONS */
+.div-button-unpressed, .div-button-pressed {
+	width: 90px; margin: 0 0 0 auto; padding: 2px 6px 2px 6px; text-align: center;
+	vertical-align: middle; border: 1px solid #bbbbbb; background-color: #333333;
+	cursor: default;
+}
+.div-button-pressed { padding: 3px 5px 1px 7px; }
+
+/* ADDITIONAL ELEMENTS :: TEXT TYPES */
+.t-encoding-read-link, .t-encoding-read-link a, .t-encoding-read-link a:visited, .t-encoding-read-link a:active, .t-encoding-read-link a:hover,
+.t-encoding, .t-encoding-example {
+	text-align: right; margin: 0 0 0 auto; padding: 0; border: 0;
+	font-weight: normal; font-size: 11px; color: #b48c00;
+}
+.t-encoding { color: #1196cb; }
+.t-encoding-example { color: #219860; }
+.t-encoding-marked, .t-encoding-marked a, .t-encoding-marked a:visited, .t-encoding-marked a:active, .t-encoding-marked a:hover {
+	color: #23d500; font-weight: normal; font-size: 11px;
+}
+.t-encoding-marked a:hover { color: #009900; }
+.t-encoding-marked a, .t-encoding-marked a:visited, .t-encoding-marked a:active, .t-encoding-marked a:hover { text-decoration: none; }
+
+#block-encoding-WARNING {
+	text-align: center;
+	width: auto;
+	margin: auto;
+	border: 0;
+	border-collapse: collapse;
+}
+#block-encoding-WARNING td { text-align: left; }
+#block-encoding-WARNING .encoding-WARNING-title { padding: 12px 0 4px 0; text-align: left; color: #ca412d; font-weight: bold; }
+#block-encoding-WARNING .encoding-WARNING-main-info { padding: 6px 0 3px 0; text-align: left; color: #ca412d; font-weight: bold; }
+#block-encoding-WARNING .encoding-WARNING-main-info-DIV {
+	padding: 0 0 3px 0; text-align: left; color: #ca412d; font-weight: normal;
+	height: 100px;  width: 700px;
+	overflow: auto;
+}
+#block-encoding-WARNING .encoding-WARNING-main { text-align: left; color: #ca412d; font-weight: normal; }
+#block-encoding-WARNING .encoding-WARNING-main a, #block-encoding-WARNING .encoding-WARNING-main a:visited,
+#block-encoding-WARNING .encoding-WARNING-main a:active, #block-encoding-WARNING .encoding-WARNING-main a:hover { color: #b48c00; }
+
+#block-ENCODINGS_TITLE { padding: 6px 0 0 0; margin: 0; font-size: 11px; color: #1196cb; }
+#block-ENCODINGS_LIST {
+	text-align: right;  font-weight: normal; font-size: 11px; color: #23d500;
+	height: 51px;  width: 250px;
+	margin: 3px 0 6px auto; padding: 0 5px 3px 0; overflow: auto;
+}
+#block-ENCODINGS_LIST a, #block-ENCODINGS_LIST a:active, #block-ENCODINGS_LIST a:visited, #block-ENCODINGS_LIST a:hover { font-size: 11px; color: #23d500; text-decoration: none; }
+#block-ENCODINGS_LIST a:hover { color: #009900; }
+/** * { border : 1px solid #bbbbbb; } /**/

@@ -1,0 +1,153 @@
+/*
+* Web Console CSS :: CONSOLE USER INTERFACE
+* (C) 2008 Nickolay Kovalev, http://resume.nickola.ru
+* E-mail: nickola_code@nickola.ru
+* @FILE_STATUS: READY
+*/
+
+/* WC USER INTERFACE :: TAB */
+.wc-ui-tab {
+	width: 1%; /* to be minimal width*/
+	font-family: verdana, helvetica, arial, sans-serif;
+	border-collapse: collapse;
+	margin: 6px 16px;
+	border: 0;
+	border-left: 1px solid #b48c00;
+	border-bottom: 1px solid #b48c00;
+}
+.wc-ui-tab * { color: #b3b3b3; font-family: verdana, helvetica, arial, sans-serif; }
+.wc-ui-tab-top { border: 0; padding: 0; height: 1%; vertical-align: bottom; text-align: left; }
+.wc-ui-tab-top .grid { width: 100%; }
+.grid td.wc-ui-tab-title, .grid td.wc-ui-tab-title-menu {
+	width: 1%;
+	white-space: nowrap;
+	border: 0;
+	border-top: 1px solid #b48c00;
+	border-right: 1px solid #b48c00;
+	padding: 6px 10px;
+	vertical-align: middle;
+	font-weight: bold;
+	color: #b48c00;
+}
+.grid td.wc-ui-tab-title-menu { border-bottom: 1px solid #655b53; }
+.grid td.wc-ui-tab-title-center {
+	border: 0;
+	border-bottom: 1px solid #b48c00;
+	font-size: 1px; padding: 0;
+	width: 100%;
+	text-align: center;
+}
+.grid td.wc-ui-tab-title-center-sub { width: 100%; }
+.wc-ui-tab-main {
+	height: auto;
+	border: 0;
+	border-right: 1px solid #b48c00;
+	vertical-align: middle;
+	padding: 10px 10px;
+	margin: 0;
+}
+/* WC USER INTERFACE :: TAB :: BOTTOM */
+.wc-ui-tab-bottom {
+	border-right: 1px solid #b48c00;
+	padding: 0 10px 8px 10px; margin: 0;
+}
+/* WC USER INTERFACE :: TAB :: MENU */
+.wc-ui-tab-menu {
+	border-right: 1px solid #b48c00;
+	vertical-align: middle;
+	padding: 0; margin: 0;
+	background-color: #333333;
+}
+.wc-ui-tab-menu .grid { width: 100%; background-color: #333333; }
+.wc-ui-tab-menu .grid td { cursor: pointer; padding: 2px 10px 4px 10px; width: auto; background-color: #333333; }
+.wc-ui-tab-menu .grid td span { white-space: nowrap; background-color: #333333; color: #b48c00; text-decoration: underline; }
+.wc-ui-tab-menu .grid td.wc-ui-tab-menu-element-ACTIVE { cursor: default; background-color: #000; }
+.wc-ui-tab-menu .grid td.wc-ui-tab-menu-element-ACTIVE span { background-color: #000; color: #b48c00; text-decoration: none; }
+.wc-ui-tab-menu .grid .wc-ui-tab-menu-element-space { cursor: default; width: 100%; font-size: 1px; padding: 0; }
+
+/* WC USER INTERFACE :: OPEN CONTAINER */
+.wc-ui-open-container {
+	border-collapse: collapse;
+	margin: 6px 6px 6px 16px;
+	border: 1px solid #6a7070;
+}
+.wc-ui-open-container-title { padding: 3px 6px; border-bottom: 1px solid #6a7070; }
+.wc-ui-open-container-main { padding: 6px; }
+
+/* ELEMENTS */
+
+/* disabled */
+.grid .disabled { color: #6a7070; }
+
+/* links */
+a.link, a.link:visited, a.link:active, a.link:hover { color: #b66640; }
+a.link-warning, a.link-warning:visited, a.link-warning:active, a.link-warning:hover { color: #ca412d; }
+
+/* areas */
+.grid .area-main, .grid .area-tabbed,
+.grid .area-top, .grid .area-bottom,
+.grid .area-left, .grid .area-left-short,
+.grid .area-right, .grid .area-right-long { text-align: left; vertical-align: middle; padding: 2px 0 2px 0; }
+.grid .area-tabbed { padding-left: 14px; }
+.grid .area-top { padding-bottom: 9px; }
+.grid .area-bottom { padding-top: 9px; }
+.grid .area-left { padding-right: 6px; }
+.grid .area-left-short { padding-right: 6px; width: auto; }
+.grid .area-left-short span { white-space: nowrap; }
+.grid .area-right-long { width: 100%; }
+/* areas :: info */
+.grid .area-info-left { padding: 0 0 3px 0; color: #528c6a; text-align: left; width: 50%; }
+.grid .area-info-right { padding: 0 0 3px 0; color: #528c6a; text-align: right; width: 50%; }
+.grid .area-info-left span, .grid .area-info-right span { color: #b66640; white-space: nowrap; }
+.grid .area-info-left span.span-file-message { color: #1196cb; white-space: nowrap; }
+.area-info-right span.span-message { color: #00cd00; white-space: nowrap; }
+/* areas :: buttons */
+.grid .area-button-left, .grid .area-button-right { vertical-align: middle; padding: 8px 0 2px 0; }
+.grid .area-button-right { padding-left: 6px; }
+
+/* style sets */
+.grid .s-info { color: #219860; font-style: italic; }
+.grid .s-group-name, .grid .s-group-name span { color: #1196cb; font-weight: bold; }
+.grid .s-message { color: #528c6a; }
+.grid .s-name { color: #4fa600; }
+.grid .s-warning { color: #ca412d; }
+.grid .s-warning-text { color: #00cd00; }
+.grid .s-link { color: #b66640; }
+.grid .s-comment { color: #b69605; }
+.grid .s-note { font-size: 9pt; font-style: italic; }
+
+/* inputs */
+.grid .in-text { padding: 1px 3px; width: 200px; border: 1px solid #b3b3b3; vertical-align: middle; }
+.grid .in-checkbox, .grid .in-radio { background-color: #000000; width: auto; height: auto; padding: 0; margin: 0 4px 0 0; }
+.grid select { width: 200px; vertical-align: middle; }
+.grid textarea {
+	padding: 1px 0 0 3px; width: 200px; height: 80px;
+	border: 1px solid #b3b3b3; vertical-align: middle; overflow: auto;
+}
+
+/* div buttons */
+* .div-button {
+	cursor: default; margin: 0; padding: 2px 8px; text-align: center;
+	background-color: #333333; border: 1px solid #bbbbbb;
+}
+* .div-button-pressed { padding: 3px 7px 1px 9px; }
+* .div-buttons-splitter {
+	cursor: default; margin: 0; padding: 2px 0; text-align: center; color: #999999;
+	background-color: #333333; border: 1px solid #333333;
+}
+
+/* widths */
+.w-80, .grid .w-80 { width: 80px; }
+.w-90, .grid .w-90 { width: 90px; }
+.w-100, .grid .w-100 { width: 100px; }
+.w-120, .grid .w-120 { width: 120px; }
+.w-130, .grid .w-130 { width: 130px; }
+.w-140, .grid .w-140 { width: 140px; }
+.w-150, .grid .w-150 { width: 150px; }
+.w-200, .grid .w-200 { width: 200px; }
+.w-250, .grid .w-250 { width: 250px; }
+.w-270, .grid .w-270 { width: 270px; }
+.w-300, .grid .w-300 { width: 300px; }
+.w-400, .grid .w-400 { width: 400px; }
+.w-500, .grid .w-500 { width: 500px; }
+.w-600, .grid .w-600 { width: 600px; }

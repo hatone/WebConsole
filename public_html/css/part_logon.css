@@ -1,0 +1,20 @@
+/*
+* Web Console CSS :: Logon part
+* (C) 2008 Nickolay Kovalev, http://resume.nickola.ru
+* E-mail: nickola_code@nickola.ru
+* @FILE_STATUS: READY
+*/
+
+.logon-TODO {
+	color: #1196cb; margin: auto; text-align: center; width: auto; font-weight: bold;
+}
+.logon-INCORRECT {
+	font-size: 13px;
+	padding: 0 0 2px 0; margin: 0 auto 1px auto;
+	color: #e25120; text-align: center; width: auto; font-weight: bold;
+}
+.logon-DEMO {
+	font-size: 13px;
+	padding: 4px 0 0 0; margin: 0 auto 1px auto;
+	color: #009900; text-align: center; width: auto; font-weight: bold;
+}

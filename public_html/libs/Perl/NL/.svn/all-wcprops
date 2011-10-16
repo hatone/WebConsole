@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svnroot/web-console/!svn/ver/9/trunk/libs/Perl/NL
+END
+String.pm
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/web-console/!svn/ver/2/trunk/libs/Perl/NL/String.pm
+END
+Error.pm
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/web-console/!svn/ver/2/trunk/libs/Perl/NL/Error.pm
+END
+Minify.pm
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/web-console/!svn/ver/2/trunk/libs/Perl/NL/Minify.pm
+END
+Report.pm
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/web-console/!svn/ver/2/trunk/libs/Perl/NL/Report.pm
+END
+Dir.pm
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/web-console/!svn/ver/4/trunk/libs/Perl/NL/Dir.pm
+END
+File.pm
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/web-console/!svn/ver/2/trunk/libs/Perl/NL/File.pm
+END
+_readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/web-console/!svn/ver/9/trunk/libs/Perl/NL/_readme.txt
+END
+Parameter.pm
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/web-console/!svn/ver/2/trunk/libs/Perl/NL/Parameter.pm
+END
+Utils.pm
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/web-console/!svn/ver/2/trunk/libs/Perl/NL/Utils.pm
+END
+CGI.pm
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/web-console/!svn/ver/2/trunk/libs/Perl/NL/CGI.pm
+END
+AJAX.pm
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/web-console/!svn/ver/2/trunk/libs/Perl/NL/AJAX.pm
+END

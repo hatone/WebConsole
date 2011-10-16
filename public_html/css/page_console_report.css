@@ -1,0 +1,21 @@
+/*
+* Web Console CSS :: Default report customization for console
+* (C) 2008 Nickolay Kovalev, http://resume.nickola.ru
+* E-mail: nickola_code@nickola.ru
+* @FILE_STATUS: READY
+*/
+
+/* Title for all reports at Console */
+.custom-report-TITLE { margin: 0 0 6px 32px; color: #00cd00; }
+
+/* DEFAULT REPORT CUSTOMIZATION */
+/* MAIN BLOCKS */
+.report-MAIN { width: 600px; }
+.report-LAYOUT { margin: 0 0 0 32px; }
+/* Hiding real report title */
+.report-title-ERROR, .report-title-WARNING, .report-title-INFORMATION { display: none; }
+/* TYPES */
+.report-t-ERROR, .report-t-WARNING, .report-t-INFORMATION,
+/* SMALL ELEMENTS */
+.report-variable-name, .report-variable-name a, .report-variable-name a:visited, .report-variable-name a:active, .report-variable-name a:hover,
+.report-dash { font-weight: normal; }

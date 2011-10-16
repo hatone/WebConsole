@@ -1,0 +1,42 @@
+/*
+* Web Console CSS :: CONSOLE USER INTERFACE :: FILE MANAGER
+* (C) 2008 Nickolay Kovalev, http://resume.nickola.ru
+* E-mail: nickola_code@nickola.ru
+* @FILE_STATUS: READY_DEV
+*/
+
+/* FILE MANAGER :: ELEMENT */
+.grid .wc-ui-fm-block {
+	padding: 3px 6px; vertical-align: top;
+	cursor: default; white-space: nowrap;
+}
+.grid .wc-ui-fm-block div, .grid .wc-ui-fm-block div.free { padding: 0 6px; white-space: nowrap; }
+.grid .wc-ui-fm-block div.wc-ui-fm-element-ACTIVE { background-color: #333333;}
+.grid .wc-ui-fm-block div.file { color: #409732; }
+.grid .wc-ui-fm-block div.dir { color: #c26d45; }
+.grid .wc-ui-fm-block div.back { color: #c26d45; }
+.grid .wc-ui-fm-block div.empty { color: #6a7070; }
+.grid .wc-ui-fm-block-EMPTY {
+	color: #6a7070; padding: 0 6px; vertical-align: top;
+	cursor: default; white-space: nowrap;
+}
+/* IFRAME for downloading */
+.iframe-download {
+	/** width: 1000px; height: 200px; *debug*/
+	/**/ width: 1px; height: 1px; display: none; /**/
+}
+/* FILE MANAGER :: PATH */
+.grid .wc-ui-fm-path-text { padding: 0 6px 0 0; color: #528c6a; width: 1%; }
+.grid .wc-ui-fm-path-input { padding: 0 6px 0 0; width: 99%; }
+.grid .wc-ui-fm-path-button-GO { padding: 0 6px 0 3px; width: auto; }
+.grid .wc-ui-fm-path-button-UP { padding: 0; width: auto; }
+/* FILE MANAGER :: INFO */
+.grid .wc-ui-fm-info-left { padding: 4px 0 2px 0; color: #528c6a; width: 50%; text-align: left; }
+.grid .wc-ui-fm-info-right { padding: 4px 0 2px 0; color: #528c6a; width: 50%; text-align: right; }
+.grid .wc-ui-fm-info-left span, .grid .wc-ui-fm-info-right span { color: #b66640; }
+.grid .wc-ui-fm-info-right span.span-message { color: #00cd00; white-space: nowrap; }
+/* FILE MANAGER :: LISTING */
+.grid .wc-ui-fm-listing {
+	padding: 2px 0; height: auto; border: 1px solid #6a7070;
+	overflow: auto; overflow-y: hidden; overflow-x: scroll;
+}
