@@ -1,0 +1,5 @@
+
+About Web Console
+Print this page
+Web Console is a web-based application that allows remote users to execute UNIX/Windows shell commands on a server, upload/download files to/from server, edit text files directly on a server and much more. The application is represented as a web page that accepts user input such as a command, executes that command on a remote web server, and shows command output in a browser. As well, simple and functional file manager build-in into the application.
+Web Console is open-source software written on Perl using AJAX technology. The application is very light, does not require any database, and can be uploaded, configured and ready to use in about 10 minutes (no need server administrator permissions for installation).
