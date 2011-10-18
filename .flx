@@ -1,5 +1,5 @@
 [permission]
 public_html                 755
-public_html/wc.pl           777
+public_html/wc.pl           755
 public_html/libs/           755
 public_html/css/            755
