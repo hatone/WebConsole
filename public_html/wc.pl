@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/perl --
 #
 # WEB CONSOLE: WEB-BASED REMOTE CONSOLE
 # (C) 2008-2010 Nickolay Kovalev, http://resume.nickola.ru
