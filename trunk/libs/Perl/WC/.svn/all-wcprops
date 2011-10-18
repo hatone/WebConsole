@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svnroot/web-console/!svn/ver/10/trunk/libs/Perl/WC
+END
+HTML.pm
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/web-console/!svn/ver/8/trunk/libs/Perl/WC/HTML.pm
+END
+Config.pm
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/web-console/!svn/ver/10/trunk/libs/Perl/WC/Config.pm
+END
+Warning.pm
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/web-console/!svn/ver/2/trunk/libs/Perl/WC/Warning.pm
+END
+Install.pm
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/web-console/!svn/ver/2/trunk/libs/Perl/WC/Install.pm
+END
+Internal.pm
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/web-console/!svn/ver/2/trunk/libs/Perl/WC/Internal.pm
+END
+Dir.pm
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/web-console/!svn/ver/4/trunk/libs/Perl/WC/Dir.pm
+END
+File.pm
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/web-console/!svn/ver/10/trunk/libs/Perl/WC/File.pm
+END
+AJAX.pm
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/web-console/!svn/ver/2/trunk/libs/Perl/WC/AJAX.pm
+END
+EXEC.pm
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/web-console/!svn/ver/10/trunk/libs/Perl/WC/EXEC.pm
+END
+Demo.pm
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/web-console/!svn/ver/2/trunk/libs/Perl/WC/Demo.pm
+END
+Upload.pm
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/web-console/!svn/ver/2/trunk/libs/Perl/WC/Upload.pm
+END
+Debug.pm
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/web-console/!svn/ver/2/trunk/libs/Perl/WC/Debug.pm
+END
+CORE.pm
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/web-console/!svn/ver/8/trunk/libs/Perl/WC/CORE.pm
+END
+Encode.pm
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/web-console/!svn/ver/2/trunk/libs/Perl/WC/Encode.pm
+END
+Response.pm
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/web-console/!svn/ver/2/trunk/libs/Perl/WC/Response.pm
+END
+Autocomplete.pm
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/web-console/!svn/ver/2/trunk/libs/Perl/WC/Autocomplete.pm
+END
+Users.pm
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/web-console/!svn/ver/2/trunk/libs/Perl/WC/Users.pm
+END
+CGI.pm
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/web-console/!svn/ver/2/trunk/libs/Perl/WC/CGI.pm
+END

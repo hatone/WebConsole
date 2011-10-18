@@ -1,0 +1,15 @@
+Web Console 0.2.6 (2010-11-12)
+	* Configuration loading method updated.
+	* File locking disabled.
+	* Some minor fixes.
+
+Web Console 0.2.5 beta (2008-04-08)
+	+ Added '#logout' feature.
+	+ Added MOD_PERL detection.
+	* Some minor fixes.
+	* Fixed build-in file manager sorting problem.
+	* Fixed installation problem - on the last page of web-based installation process,
+	  when click on "logon" link, sometimes browser gets page from a cache.
+
+Web Console 0.2 beta (2008-03-25)
+	* First public release of Web Console

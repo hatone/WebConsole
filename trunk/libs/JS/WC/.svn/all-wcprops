@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svnroot/web-console/!svn/ver/5/trunk/libs/JS/WC
+END
+WC_UI.js
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/web-console/!svn/ver/5/trunk/libs/JS/WC/WC_UI.js
+END
+WC_Console_Response.js
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/web-console/!svn/ver/5/trunk/libs/JS/WC/WC_Console_Response.js
+END
+WC_Other.js
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/web-console/!svn/ver/5/trunk/libs/JS/WC/WC_Other.js
+END
+WC_Console_Clipboard.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/web-console/!svn/ver/5/trunk/libs/JS/WC/WC_Console_Clipboard.js
+END
+WC_UI_Upload.js
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/web-console/!svn/ver/5/trunk/libs/JS/WC/WC_UI_Upload.js
+END
+WC_Console_History.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/web-console/!svn/ver/5/trunk/libs/JS/WC/WC_Console_History.js
+END
+WC_Console_Autocomplete.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/web-console/!svn/ver/5/trunk/libs/JS/WC/WC_Console_Autocomplete.js
+END
+WC_Console_HTML.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/web-console/!svn/ver/5/trunk/libs/JS/WC/WC_Console_HTML.js
+END
+WC_Core.js
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/web-console/!svn/ver/5/trunk/libs/JS/WC/WC_Core.js
+END
+WC_Console_DOM.js
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/web-console/!svn/ver/5/trunk/libs/JS/WC/WC_Console_DOM.js
+END
+WC_Console_Timer.js
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/web-console/!svn/ver/5/trunk/libs/JS/WC/WC_Console_Timer.js
+END
+WC_Console_State.js
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/web-console/!svn/ver/5/trunk/libs/JS/WC/WC_Console_State.js
+END
+WC_Console.js
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/web-console/!svn/ver/5/trunk/libs/JS/WC/WC_Console.js
+END
+WC_Init.js
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/web-console/!svn/ver/5/trunk/libs/JS/WC/WC_Init.js
+END
+WC_Console_Prompt.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/web-console/!svn/ver/5/trunk/libs/JS/WC/WC_Console_Prompt.js
+END
+WC_Console_Hooks.js
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/web-console/!svn/ver/5/trunk/libs/JS/WC/WC_Console_Hooks.js
+END
+WC_Console_AJAX.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/web-console/!svn/ver/5/trunk/libs/JS/WC/WC_Console_AJAX.js
+END
+WC_Console_Exec.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/web-console/!svn/ver/5/trunk/libs/JS/WC/WC_Console_Exec.js
+END
+WC_UI_Filemanager.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/web-console/!svn/ver/5/trunk/libs/JS/WC/WC_UI_Filemanager.js
+END

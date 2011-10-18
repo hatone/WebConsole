@@ -1,0 +1,86 @@
+/*
+* Web Console CSS :: Installation part
+* (C) 2008 Nickolay Kovalev, http://resume.nickola.ru
+* E-mail: nickola_code@nickola.ru
+* @FILE_STATUS: READY
+*/
+
+/* NOT YET INSTALLED */
+.install-ALL-CHECKED-OK {
+	white-space: nowrap; font-size: 14px; padding: 0 0 3px 0; color: #1196cb; margin: auto; text-align: center; width: auto; font-weight: bold;
+}
+.install-DETAIL, .install-DETAIL a, .install-DETAIL a:visited, .install-DETAIL a:active, .install-DETAIL a:hover {
+	white-space: nowrap; padding: 0 0 3px 0; color: #b66712; margin: auto; text-align: center; width: auto; font-weight: bold;
+}
+.install-TODO, .install-TODO a, .install-TODO a:visited, .install-TODO a:active, .install-TODO a:hover {
+	color: #b48c00; margin: auto; text-align: center; width: auto; font-weight: bold;
+}
+
+/* INSTALLED */
+.installed-TITLE {
+	white-space: nowrap; font-size: 14px; padding: 0 0 3px 0; color: #1196cb; margin: auto; text-align: center; width: auto; font-weight: bold;
+}
+.installed-MAIN {
+	padding: 8px 12px; margin: 6px auto 0 auto;
+	text-align: center;
+	border-top: 2px solid #48736c;
+	border-bottom: 2px solid #48736c;
+	width: auto;
+	line-height: 120%;
+	color: #aeac0d;
+}
+.installed-MAIN table {
+	margin: auto;
+	width: auto;
+	border: 0;
+  	border-collapse: collapse;
+}
+.installed-MAIN table td { padding: 0; text-align: left; }
+.installed-LOGON, .installed-LOGON a, .installed-LOGON a:visited, .installed-LOGON a:active, .installed-LOGON a:hover {
+	color: #23d500;
+	font-weight: bold;
+}
+.installed-USAGE {
+	padding: 0; margin: 6px 0 6px 0;
+	color: #b66712;
+	font-weight: bold;
+	line-height: 130%;
+}
+.installed-USAGE a, .installed-USAGE a:visited, .installed-USAGE a:active, .installed-USAGE a:hover, .installed-USAGE a:hover {
+	color: #b66712;
+	font-weight: bold;
+	line-height: 135%;
+}
+.installed-SERVICES, .installed-SERVICES a, .installed-SERVICES a:visited, .installed-SERVICES a:active, .installed-SERVICES a:hover {
+	padding: 0; margin: 0;
+	color: #cc9900;
+}
+a.installed-SERVICES-LINK, a.installed-SERVICES-LINK:visited, a.installed-SERVICES-LINK:active, a.installed-SERVICES-LINK:hover {
+	color: #cc9900;
+	font-weight: bold;
+	text-decoration: none;
+}
+.installed-FOOTER {
+	padding: 0; margin: 6px 0 6px 0;
+	white-space: nowrap;
+	text-align: center;
+	color: #00bc58;
+}
+.installed-FOOTER a, .installed-FOOTER a:visited, .installed-FOOTER a:active, .installed-FOOTER a:hover {
+	color: #00bc58;
+	text-decoration: none;
+}
+.installed-DASH {
+	color: #b66712;
+	font-weight: bold;
+}
+/* Login area */
+.installed-area-LOGIN {
+	padding: 16px 0 10px 0; margin: auto;
+	text-align: center;
+}
+.installed-LOGIN-button {
+	cursor: default; margin: auto; padding: 2px 8px; text-align: center;
+	background-color: #333333; border: 1px solid #bbbbbb; width: 220px;
+}
+.installed-LOGIN-button-pressed { padding: 3px 7px 1px 9px; }

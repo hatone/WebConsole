@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svnroot/web-console/!svn/ver/7/trunk/libs/JS/NL
+END
+NL_UI.js
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/web-console/!svn/ver/5/trunk/libs/JS/NL/NL_UI.js
+END
+NL_Timer.js
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/web-console/!svn/ver/5/trunk/libs/JS/NL/NL_Timer.js
+END
+NL_Crypt.js
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/web-console/!svn/ver/5/trunk/libs/JS/NL/NL_Crypt.js
+END
+NL_AJAX.js
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/web-console/!svn/ver/5/trunk/libs/JS/NL/NL_AJAX.js
+END
+NL_Browser.js
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/web-console/!svn/ver/7/trunk/libs/JS/NL/NL_Browser.js
+END
+NL_Cache.js
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/web-console/!svn/ver/5/trunk/libs/JS/NL/NL_Cache.js
+END
+NL_Form.js
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/web-console/!svn/ver/5/trunk/libs/JS/NL/NL_Form.js
+END
+NL_Upload.js
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/web-console/!svn/ver/5/trunk/libs/JS/NL/NL_Upload.js
+END
+NL_Debug.js
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/web-console/!svn/ver/5/trunk/libs/JS/NL/NL_Debug.js
+END
+NL_String.js
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/web-console/!svn/ver/5/trunk/libs/JS/NL/NL_String.js
+END
+NL_Core.js
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/web-console/!svn/ver/5/trunk/libs/JS/NL/NL_Core.js
+END

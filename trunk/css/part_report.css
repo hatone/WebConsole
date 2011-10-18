@@ -1,0 +1,110 @@
+/*
+* Web Console CSS :: Report part
+* (C) 2008 Nickolay Kovalev, http://resume.nickola.ru
+* E-mail: nickola_code@nickola.ru
+* @FILE_STATUS: READY
+*/
+
+/* MAIN BLOCKS */
+.report-LAYOUT {
+	padding: 0; margin: 0 auto;
+	width: auto;
+	border: 0;
+  	border-collapse: collapse;
+	text-align: center;
+}
+.report-LAYOUT td {
+	text-align: left;
+}
+.report-SPLITTER {
+	padding: 0 0 8px 0; margin: 8px 0 0 0;
+	border-top: 1px dashed #48736c;
+	font-size: 1px;
+}
+.report-title-ERROR, .report-title-WARNING, .report-title-INFORMATION {
+	padding: 0; margin: 3px 6px 8px 0;
+	font-size: 14px; font-weight: bold;
+	text-align: left;
+	color: #1196cb;
+	white-space: nowrap;
+}
+.report-MAIN {
+	padding: 8px 0 8px 0; margin: 0;
+	text-align: left;
+	border-top: 2px solid #48736c;
+	border-bottom: 2px solid #48736c;
+	width: 520px;
+	line-height: 120%;
+	color: #aeac0d;
+}
+.report-MAIN a.m-bold, .report-MAIN a.m-bold:visited, .report-MAIN a.m-bold:active, .report-MAIN a.m-bold:hover {
+	color: #aeac0d; font-weight: bold;
+	text-decoration: underline;
+}
+.report-MAIN b { color: #aeac0d; font-weight: bold; }
+.report-FOOTER, .report-FOOTER b {
+	padding: 0; margin: 6px 0 6px 0;
+	white-space: nowrap;
+	text-align: center;
+	color: #00bc58;
+}
+.report-FOOTER b { font-weight: bold; }
+.report-FOOTER a, .report-FOOTER a:visited, .report-FOOTER a:active, .report-FOOTER a:hover {
+	color: #00bc58;
+}
+
+/* TYPES */
+.report-t-ERROR  {
+	color: #e51b16;
+	font-weight: bold;
+}
+.report-t-WARNING  {
+	color: #00ab81;
+	font-weight: bold;
+}
+.report-t-INFORMATION {
+	color: #00ab81;
+	font-weight: bold;
+}
+
+/* SUB-BLOCKS */
+.report-b-INFO {
+	padding: 4px 0 0 0; margin: 0;
+	color: #b66712;
+}
+.report-b-INFO b { color: #b66712; font-weight: bold; }
+.report-b-FAQ {
+	padding: 0; margin: 1px 0 0 0;
+	white-space: nowrap;
+	text-align: right;
+	font-size: 11px;
+	color: #a995cd;
+}
+.report-b-FAQ a, .report-b-FAQ a:visited, .report-b-FAQ a:active, .report-b-FAQ a:hover {
+	font-size: 11px;
+	color: #a995cd;
+}
+.report-block-MOD_PERL-code {
+	margin: 0;
+	padding: 3px 8px 0 22px;
+}
+.report-block-MOD_PERL-code pre {
+	font-family: Courier New, Courier, Fixed;
+	font-size: 13px;
+	color: #996600;
+	padding: 0;
+	margin: 0;
+}
+
+/* SMALL ELEMENTS */
+.report-variable-name, .report-variable-name a, .report-variable-name a:visited, .report-variable-name a:active, .report-variable-name a:hover {
+	color: #b66712;
+	font-weight: bold;
+}
+.report-variable-name a, .report-variable-name a:visited, .report-variable-name a:active, .report-variable-name a:hover {
+	text-decoration: none;
+}
+.report-dash {
+	color: #aeac0d;
+	font-weight: bold;
+}

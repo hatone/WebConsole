@@ -1,0 +1,89 @@
+/*
+* Web Console CSS :: For 'MAIN PAGE' (CONSOLE)
+* (C) 2008 Nickolay Kovalev, http://resume.nickola.ru
+* E-mail: nickola_code@nickola.ru
+* @FILE_STATUS: READY
+*/
+
+/* GLOBAL */
+* {
+	margin: 0; padding: 0;
+	background-color: #000;
+	font-weight: normal;
+	font-size: 10pt;
+	font-family: fixedsys, courier new, courier, verdana, helvetica, arial, sans-serif;
+	color: #bbbbbb;
+}
+a, a:visited, a:active, a:hover {
+	background-color: /* #WC_CODE: STYLE_CONSOLE_background-color */#000/* #WC_CODE: /STYLE_CONSOLE_background-color */;
+	color: /* #WC_CODE: STYLE_CONSOLE_color */#bbb/* #WC_CODE: /STYLE_CONSOLE_color */;
+	text-decoration: underline;
+}
+
+/* MAIN */
+html, body { margin: 0; padding: 0; height: 100%; }
+/* Showing vertical scrollbar always */
+html { overflow-y: scroll; }
+div { margin: 0; padding: 0; }
+form { margin: 0; padding: 0; }
+.hide { display: none; }
+.show { display: block; }
+/* simple table for grid */
+.grid { border-collapse: collapse; margin: 0; border: 0; width: auto; }
+.grid td { margin: 0; padding: 0; }
+
+/* LAYOUTS */
+#layout {
+	width: 100%; height: 100%;
+	border: 0; border-collapse: collapse;
+}
+#layout-td {
+	vertical-align: bottom; text-align: left;
+	margin: 0; padding: 6px; /* main padding */
+}
+#layout-internal {
+	width: 100%; /* height: 100%; */
+	border: 0; border-collapse: collapse;
+}
+/* LAYOUTS :: AREAS */
+#area-output {
+	margin: 0; padding: 0;
+	vertical-align: bottom; text-align: left;
+	height: auto;
+}
+#area-bottom {
+	margin: 0; padding: 0;
+	vertical-align: bottom; text-align: left;
+	height: 20px;
+}
+#area-bottom .grid { width: 100%; }
+/* LAYOUTS :: AREAS :: COMMAND */
+#area-command-prefix-td {
+	margin: 0; padding: 0;
+	vertical-align: middle; text-align: left;
+	width: auto; height: 20px;
+	white-space: nowrap;
+}
+#area-command-prefix {
+	margin: 0; padding: 0;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+#area-command {
+	margin: 0; padding: 0;
+	vertical-align: middle; text-align: left;
+	width: 100%; height: 20px;
+}
+
+/* INPUTS */
+#input-query {
+	margin: 0; padding: 0;
+	padding: 0 1px 0 0;
+	vertical-align: middle;	text-align: left;
+	width: 100%;
+	border: 0;
+	/* "outline: none;" - removing the blue glow in Safari */
+	outline: none;
+}
+
+/** * { border : 1px solid #bbbbbb; } /**/
