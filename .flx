@@ -1,0 +1,3 @@
+[permission]
+public_html                 755
+public_html/wc.pl           777
